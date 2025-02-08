@@ -1,0 +1,5 @@
+package roles
+
+class Mage {
+
+}
