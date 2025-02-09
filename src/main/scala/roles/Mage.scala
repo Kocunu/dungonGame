@@ -1,5 +1,0 @@
-package roles
-
-class Mage {
-
-}

@@ -5,6 +5,10 @@ type Attack = (Double, Double)
 type Mage = (Double, Double)
 type Speed = Int
 
+enum Skills(val damage: Int):
+  case SwordSwing extends Skills(120)
+  case Fireball extends Skills(120)
+
 trait ConfigureHealth {
   def setHealth(health: Health): Unit
   def getHealth(): Health

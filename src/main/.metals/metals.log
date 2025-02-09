@@ -390,3 +390,553 @@ scala.meta.internal.tokenizers.package$UnexpectedInputEndException
 2025.02.09 18:00:22 INFO  Shutting down server[0m
 2025.02.09 18:00:22 INFO  shutting down Metals[0m
 2025.02.09 18:00:22 INFO  Shut down connection with build server.[0m
+2025.02.09 19:02:57 INFO  Started: Metals version 1.5.1 in folders '/Users/alicankoc/fun/dungonGame/src/main' for client Neovim 0.10.4.[0m
+2025.02.09 19:02:58 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/main.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.09 19:02:58 INFO  Attempting to connect to the build server...[0m
+2025.02.09 19:02:58 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-launcher-options.json, --envs-file, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-envs.json, /Users/alicankoc/fun/dungonGame/src/main)[0m
+2025.02.09 19:02:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alicankoc/fun/dungonGame/src/main/.metals/bsp.trace.json or /Users/alicankoc/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.02.09 19:02:59 WARN  no build target for: /Users/alicankoc/fun/dungonGame/src/main/scala/main.scala[0m
+2025.02.09 19:02:59 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/main.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.09 19:02:59 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/main.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.09 19:03:00 INFO  time: Connected to build server in 2.27s[0m
+2025.02.09 19:03:00 INFO  Connected to Build server: scala v1.5.4[0m
+2025.02.09 19:03:00 INFO  running doctor check[0m
+2025.02.09 19:03:00 INFO  java targets: main_1d6c8ac50d, main_1d6c8ac50d-test[0m
+2025.02.09 19:03:00 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 19:03:00 INFO  time: compiled main_1d6c8ac50d in 65ms[0m
+2025.02.09 19:03:00 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 19:03:00 INFO  time: compiled main_1d6c8ac50d in 34ms[0m
+Feb. 09, 2025 7:03:01 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SCHWERWIEGEND: expected identifier; obtained eof (full report at: /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals/2025-02-09/r_scala-toplevel-mtags_19-03-01-645.md)
+2025.02.09 19:03:01 ERROR /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:757)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:251)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspaceSources$7(Indexer.scala:355)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspaceSources$7$adapted(Indexer.scala:350)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1306)
+	at scala.collection.parallel.ParIterableLike$Foreach.leaf(ParIterableLike.scala:938)
+	at scala.collection.parallel.Task.$anonfun$tryLeaf$1(Tasks.scala:52)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.util.control.Breaks$$anon$1.catchBreak(Breaks.scala:97)
+	at scala.collection.parallel.Task.tryLeaf(Tasks.scala:55)
+	at scala.collection.parallel.Task.tryLeaf$(Tasks.scala:49)
+	at scala.collection.parallel.ParIterableLike$Foreach.tryLeaf(ParIterableLike.scala:935)
+	at scala.collection.parallel.AdaptiveWorkStealingTasks$AWSTWrappedTask.internal(Tasks.scala:159)
+	at scala.collection.parallel.AdaptiveWorkStealingTasks$AWSTWrappedTask.internal$(Tasks.scala:156)
+	at scala.collection.parallel.AdaptiveWorkStealingForkJoinTasks$AWSFJTWrappedTask.internal(Tasks.scala:304)
+	at scala.collection.parallel.AdaptiveWorkStealingTasks$AWSTWrappedTask.compute(Tasks.scala:149)
+	at scala.collection.parallel.AdaptiveWorkStealingTasks$AWSTWrappedTask.compute$(Tasks.scala:148)
+	at scala.collection.parallel.AdaptiveWorkStealingForkJoinTasks$AWSFJTWrappedTask.compute(Tasks.scala:304)
+	at java.util.concurrent.RecursiveAction.exec(RecursiveAction.java:194)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1460)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2036)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:189)
+[0m
+2025.02.09 19:03:01 INFO  time: indexed workspace in 1.27s[0m
+2025.02.09 19:03:02 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 19:03:02 INFO  time: compiled main_1d6c8ac50d in 35ms[0m
+2025.02.09 19:03:02 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 19:03:02 INFO  time: compiled main_1d6c8ac50d in 32ms[0m
+2025.02.09 19:03:34 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala[0m
+2025.02.09 19:03:34 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 19:03:34 INFO  time: compiled main_1d6c8ac50d in 49ms[0m
+2025.02.09 19:03:35 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala[0m
+2025.02.09 19:03:34 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 19:03:34 INFO  time: compiled main_1d6c8ac50d in 25ms[0m
+2025.02.09 19:03:34 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 19:03:34 INFO  time: compiled main_1d6c8ac50d in 24ms[0m
+2025.02.09 19:03:50 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 19:03:50 INFO  time: compiled main_1d6c8ac50d in 70ms[0m
+2025.02.09 19:03:51 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/User.scala[0m
+2025.02.09 19:03:52 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 19:03:52 INFO  time: compiled main_1d6c8ac50d in 72ms[0m
+2025.02.09 19:03:52 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 19:03:52 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/User.scala[0m
+2025.02.09 19:03:52 INFO  time: compiled main_1d6c8ac50d in 46ms[0m
+2025.02.09 19:03:52 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 19:03:52 INFO  time: compiled main_1d6c8ac50d in 46ms[0m
+2025.02.09 19:03:54 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 19:03:54 INFO  time: compiled main_1d6c8ac50d in 69ms[0m
+2025.02.09 19:04:59 INFO  Started: Metals version 1.5.1 in folders '/Users/alicankoc/fun/dungonGame/src/main' for client Neovim 0.10.4.[0m
+2025.02.09 19:04:59 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/roles/Warior.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.09 19:04:59 INFO  Attempting to connect to the build server...[0m
+2025.02.09 19:04:59 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-launcher-options.json, --envs-file, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-envs.json, /Users/alicankoc/fun/dungonGame/src/main)[0m
+2025.02.09 19:04:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alicankoc/fun/dungonGame/src/main/.metals/bsp.trace.json or /Users/alicankoc/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.02.09 19:05:01 INFO  time: Connected to build server in 1.91s[0m
+2025.02.09 19:05:01 INFO  Connected to Build server: scala v1.5.4[0m
+2025.02.09 19:05:01 INFO  running doctor check[0m
+2025.02.09 19:05:01 INFO  java targets: main_1d6c8ac50d, main_1d6c8ac50d-test[0m
+2025.02.09 19:05:01 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 19:05:01 INFO  time: compiled main_1d6c8ac50d in 0.11s[0m
+2025.02.09 19:05:01 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 19:05:01 INFO  time: compiled main_1d6c8ac50d in 55ms[0m
+2025.02.09 19:05:02 INFO  time: indexed workspace in 1.4s[0m
+2025.02.09 19:05:03 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 19:05:03 INFO  time: compiled main_1d6c8ac50d in 58ms[0m
+2025.02.09 19:05:03 WARN  Could not load snapshot text for /Users/alicankoc/fun/dungonGame/src/main/scala/roles/Warior.scala[0m
+2025.02.09 19:05:03 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 19:05:03 INFO  time: compiled main_1d6c8ac50d in 52ms[0m
+2025.02.09 19:05:02 WARN  Could not load snapshot text for /Users/alicankoc/fun/dungonGame/src/main/scala/roles/Warior.scala[0m
+2025.02.09 19:05:29 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 19:05:29 INFO  time: compiled main_1d6c8ac50d in 92ms[0m
+2025.02.09 19:05:29 WARN  Could not load snapshot text for /Users/alicankoc/fun/dungonGame/src/main/scala/roles/Warior.scala[0m
+2025.02.09 19:05:35 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 19:05:35 INFO  time: compiled main_1d6c8ac50d in 57ms[0m
+2025.02.09 19:05:35 WARN  Could not load snapshot text for /Users/alicankoc/fun/dungonGame/src/main/scala/roles/Warior.scala[0m
+2025.02.09 19:05:43 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 19:05:43 INFO  time: compiled main_1d6c8ac50d in 63ms[0m
+2025.02.09 19:05:43 WARN  Could not load snapshot text for /Users/alicankoc/fun/dungonGame/src/main/scala/roles/Warior.scala[0m
+2025.02.09 19:05:46 INFO  Shutting down server[0m
+2025.02.09 19:05:46 INFO  shutting down Metals[0m
+2025.02.09 19:05:46 INFO  Shut down connection with build server.[0m
+2025.02.09 19:05:59 INFO  Started: Metals version 1.5.1 in folders '/Users/alicankoc/fun/dungonGame/src/main' for client Neovim 0.10.4.[0m
+2025.02.09 19:05:59 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/roles/Warior.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.09 19:05:59 INFO  Attempting to connect to the build server...[0m
+2025.02.09 19:05:59 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-launcher-options.json, --envs-file, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-envs.json, /Users/alicankoc/fun/dungonGame/src/main)[0m
+2025.02.09 19:05:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alicankoc/fun/dungonGame/src/main/.metals/bsp.trace.json or /Users/alicankoc/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.02.09 19:06:01 INFO  time: Connected to build server in 2.16s[0m
+2025.02.09 19:06:01 INFO  Connected to Build server: scala v1.5.4[0m
+2025.02.09 19:06:01 INFO  running doctor check[0m
+2025.02.09 19:06:01 INFO  java targets: main_1d6c8ac50d, main_1d6c8ac50d-test[0m
+2025.02.09 19:06:01 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 19:06:01 INFO  time: compiled main_1d6c8ac50d in 0.1s[0m
+2025.02.09 19:06:01 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 19:06:01 INFO  time: compiled main_1d6c8ac50d in 48ms[0m
+2025.02.09 19:06:02 INFO  time: indexed workspace in 1.26s[0m
+2025.02.09 19:06:02 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 19:06:02 INFO  time: compiled main_1d6c8ac50d in 57ms[0m
+2025.02.09 19:06:03 WARN  Could not load snapshot text for /Users/alicankoc/fun/dungonGame/src/main/scala/roles/Warior.scala[0m
+2025.02.09 19:06:02 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 19:06:02 INFO  time: compiled main_1d6c8ac50d in 51ms[0m
+2025.02.09 19:06:03 WARN  Could not load snapshot text for /Users/alicankoc/fun/dungonGame/src/main/scala/roles/Warior.scala[0m
+2025.02.09 19:06:36 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 19:06:36 INFO  time: compiled main_1d6c8ac50d in 0.11s[0m
+2025.02.09 19:06:39 INFO  Shutting down server[0m
+2025.02.09 19:06:39 INFO  shutting down Metals[0m
+2025.02.09 19:06:39 INFO  Shut down connection with build server.[0m
+2025.02.09 19:07:06 INFO  time: compiled main_1d6c8ac50d in 3ms[0m
+2025.02.09 19:07:14 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/User.scala[0m
+2025.02.09 19:07:16 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/User.scala[0m
+2025.02.09 19:07:17 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/User.scala[0m
+2025.02.09 19:07:24 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:07:24 INFO  time: compiled main_1d6c8ac50d in 63ms[0m
+2025.02.09 19:07:31 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/User.scala[0m
+2025.02.09 19:07:32 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:07:32 INFO  time: compiled main_1d6c8ac50d in 21ms[0m
+2025.02.09 19:07:32 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/User.scala[0m
+2025.02.09 19:07:34 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/User.scala[0m
+2025.02.09 19:07:34 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/User.scala[0m
+2025.02.09 19:07:38 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:07:38 INFO  time: compiled main_1d6c8ac50d in 64ms[0m
+2025.02.09 19:09:07 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:09:07 INFO  time: compiled main_1d6c8ac50d in 91ms[0m
+2025.02.09 19:09:22 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/roles/StandardAttributes.scala. Using presentation compiler with project's scala-library version: 3.6.3[0m
+2025.02.09 19:09:22 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/roles/StandardAttributes.scala. Using presentation compiler with project's scala-library version: 3.6.3[0m
+2025.02.09 19:09:22 WARN  no build target for: /Users/alicankoc/fun/dungonGame/src/main/scala/roles/StandardAttributes.scala[0m
+2025.02.09 19:09:22 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/roles/StandardAttributes.scala. Using presentation compiler with project's scala-library version: 3.6.3[0m
+2025.02.09 19:09:22 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:09:22 INFO  Cancelling compilation on scala server[0m
+2025.02.09 19:09:22 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/roles/StandardAttributes.scala. Using presentation compiler with project's scala-library version: 3.6.3[0m
+2025.02.09 19:09:22 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/roles/StandardAttributes.scala. Using presentation compiler with project's scala-library version: 3.6.3[0m
+2025.02.09 19:09:22 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/roles/StandardAttributes.scala. Using presentation compiler with project's scala-library version: 3.6.3[0m
+2025.02.09 19:09:22 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/roles/StandardAttributes.scala. Using presentation compiler with project's scala-library version: 3.6.3[0m
+2025.02.09 19:09:22 INFO  time: compiled main_1d6c8ac50d in 0.1s[0m
+Exception in thread "pool-16-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025.02.09 19:09:22 INFO  time: Imported build in 0.16s[0m
+2025.02.09 19:09:22 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/roles/StandardAttributes.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.09 19:09:22 INFO  running doctor check[0m
+2025.02.09 19:09:22 INFO  java targets: main_1d6c8ac50d, main_1d6c8ac50d-test[0m
+2025.02.09 19:09:22 INFO  time: indexed workspace in 0.76s[0m
+2025.02.09 19:09:31 INFO  Cancelling compilation on scala server[0m
+2025.02.09 19:09:31 INFO  running doctor check[0m
+2025.02.09 19:09:31 INFO  java targets: main_1d6c8ac50d, main_1d6c8ac50d-test[0m
+2025.02.09 19:09:31 INFO  time: indexed workspace in 0.58s[0m
+Feb. 09, 2025 7:09:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 178
+2025.02.09 19:09:34 INFO  Cancelling compilation on scala server[0m
+2025.02.09 19:09:34 INFO  running doctor check[0m
+2025.02.09 19:09:34 INFO  java targets: main_1d6c8ac50d, main_1d6c8ac50d-test[0m
+2025.02.09 19:09:35 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala[0m
+2025.02.09 19:09:34 INFO  time: indexed workspace in 0.57s[0m
+2025.02.09 19:09:35 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala[0m
+2025.02.09 19:09:43 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala[0m
+2025.02.09 19:09:56 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala[0m
+2025.02.09 19:09:57 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala[0m
+2025.02.09 19:09:59 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:09:59 INFO  time: compiled main_1d6c8ac50d in 38ms[0m
+2025.02.09 19:11:00 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:11:00 INFO  time: compiled main_1d6c8ac50d in 41ms[0m
+2025.02.09 19:11:40 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:11:40 INFO  time: compiled main_1d6c8ac50d in 0.2s[0m
+2025.02.09 19:12:10 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:12:10 INFO  time: compiled main_1d6c8ac50d in 0.14s[0m
+2025.02.09 19:12:13 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:12:13 INFO  time: compiled main_1d6c8ac50d in 0.14s[0m
+2025.02.09 19:12:38 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:12:38 INFO  time: compiled main_1d6c8ac50d in 0.14s[0m
+2025.02.09 19:12:42 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:12:42 INFO  time: compiled main_1d6c8ac50d in 0.14s[0m
+2025.02.09 19:13:14 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:13:14 INFO  time: compiled main_1d6c8ac50d in 0.13s[0m
+2025.02.09 19:13:20 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:13:20 INFO  time: compiled main_1d6c8ac50d in 0.16s[0m
+2025.02.09 19:13:26 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:13:26 INFO  time: compiled main_1d6c8ac50d in 0.14s[0m
+2025.02.09 19:13:32 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:13:32 INFO  time: compiled main_1d6c8ac50d in 0.18s[0m
+2025.02.09 19:13:40 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:13:40 INFO  time: compiled main_1d6c8ac50d in 0.13s[0m
+2025.02.09 19:14:11 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:14:11 INFO  time: compiled main_1d6c8ac50d in 0.13s[0m
+2025.02.09 19:14:29 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:14:29 INFO  time: compiled main_1d6c8ac50d in 0.12s[0m
+2025.02.09 19:15:57 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:15:57 INFO  time: compiled main_1d6c8ac50d in 0.12s[0m
+2025.02.09 19:16:07 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:16:07 INFO  time: compiled main_1d6c8ac50d in 94ms[0m
+2025.02.09 19:16:13 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:16:13 INFO  time: compiled main_1d6c8ac50d in 85ms[0m
+2025.02.09 19:16:19 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:16:19 INFO  time: compiled main_1d6c8ac50d in 87ms[0m
+2025.02.09 19:16:51 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:16:51 INFO  time: compiled main_1d6c8ac50d in 94ms[0m
+2025.02.09 19:16:55 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:16:55 INFO  time: compiled main_1d6c8ac50d in 90ms[0m
+2025.02.09 19:17:16 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:17:16 INFO  time: compiled main_1d6c8ac50d in 0.11s[0m
+2025.02.09 19:17:26 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:17:26 INFO  time: compiled main_1d6c8ac50d in 84ms[0m
+2025.02.09 19:18:11 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:18:11 INFO  time: compiled main_1d6c8ac50d in 42ms[0m
+2025.02.09 19:18:32 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:18:32 INFO  time: compiled main_1d6c8ac50d in 89ms[0m
+2025.02.09 19:18:59 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:18:59 INFO  time: compiled main_1d6c8ac50d in 0.17s[0m
+2025.02.09 19:18:59 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:18:59 INFO  time: compiled main_1d6c8ac50d in 53ms[0m
+2025.02.09 19:19:12 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:19:12 INFO  time: compiled main_1d6c8ac50d in 61ms[0m
+2025.02.09 19:19:47 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:19:47 INFO  time: compiled main_1d6c8ac50d in 47ms[0m
+2025.02.09 19:20:38 INFO  Shutting down server[0m
+2025.02.09 19:20:38 INFO  shutting down Metals[0m
+2025.02.09 19:20:39 INFO  Shut down connection with build server.[0m
+2025.02.09 19:20:57 INFO  Started: Metals version 1.5.1 in folders '/Users/alicankoc/fun/dungonGame/src/main' for client Neovim 0.10.4.[0m
+2025.02.09 19:20:58 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/roles/StandardAttributes.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.09 19:20:58 INFO  Attempting to connect to the build server...[0m
+2025.02.09 19:20:58 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-launcher-options.json, --envs-file, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-envs.json, /Users/alicankoc/fun/dungonGame/src/main)[0m
+2025.02.09 19:20:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alicankoc/fun/dungonGame/src/main/.metals/bsp.trace.json or /Users/alicankoc/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.02.09 19:21:00 INFO  time: Connected to build server in 1.98s[0m
+2025.02.09 19:21:00 INFO  Connected to Build server: scala v1.5.4[0m
+2025.02.09 19:21:00 INFO  running doctor check[0m
+2025.02.09 19:21:00 INFO  java targets: main_1d6c8ac50d, main_1d6c8ac50d-test[0m
+2025.02.09 19:21:00 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:21:00 INFO  time: compiled main_1d6c8ac50d in 94ms[0m
+2025.02.09 19:21:00 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:21:00 INFO  time: compiled main_1d6c8ac50d in 38ms[0m
+2025.02.09 19:21:01 INFO  time: indexed workspace in 1.29s[0m
+2025.02.09 19:21:01 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:21:01 INFO  time: compiled main_1d6c8ac50d in 40ms[0m
+2025.02.09 19:21:01 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:21:01 INFO  time: compiled main_1d6c8ac50d in 38ms[0m
+2025.02.09 19:23:03 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala:11: error: [dialect scala3] ; expected but { found
+    case swordSwing(damage: Int) {
+                                 ^[0m
+2025.02.09 19:23:03 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:23:03 INFO  time: compiled main_1d6c8ac50d in 54ms[0m
+2025.02.09 19:23:57 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala:11: error: [dialect scala3] ; expected but { found
+    case swordSwing(damage: Int) {
+                                 ^[0m
+2025.02.09 19:23:58 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:23:58 INFO  time: compiled main_1d6c8ac50d in 59ms[0m
+2025.02.09 19:24:00 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala:11: error: [dialect scala3] ; expected but { found
+    case swordSwing(damage: Int) {
+                                 ^[0m
+2025.02.09 19:24:00 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:24:00 INFO  time: compiled main_1d6c8ac50d in 55ms[0m
+2025.02.09 19:24:18 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala:11: error: [dialect scala3] ; expected but { found
+    case swordSwing(damage: Int) {
+                                 ^[0m
+2025.02.09 19:24:18 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:24:18 INFO  time: compiled main_1d6c8ac50d in 59ms[0m
+2025.02.09 19:24:21 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala:11: error: [dialect scala3] ; expected but { found
+    case swordSwing(damage: Int) {
+                                 ^[0m
+2025.02.09 19:24:21 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:24:21 INFO  time: compiled main_1d6c8ac50d in 54ms[0m
+2025.02.09 19:24:29 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala:11: error: [dialect scala3] ; expected but { found
+    case swordSwing(damage: Int) {
+                                 ^[0m
+2025.02.09 19:24:29 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:24:29 INFO  time: compiled main_1d6c8ac50d in 51ms[0m
+2025.02.09 19:24:35 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala:11: error: [dialect scala3] ; expected but { found
+    case swordSwing(damage: Int) {
+                                 ^[0m
+2025.02.09 19:24:35 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:24:35 INFO  time: compiled main_1d6c8ac50d in 55ms[0m
+2025.02.09 19:24:47 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala:12: error: [dialect scala3] ; expected but { found
+    case swordSwing(damage: Int) {
+                                 ^[0m
+2025.02.09 19:24:47 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:24:47 INFO  time: compiled main_1d6c8ac50d in 57ms[0m
+2025.02.09 19:24:50 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:24:50 INFO  time: compiled main_1d6c8ac50d in 59ms[0m
+2025.02.09 19:25:37 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:25:37 INFO  time: compiled main_1d6c8ac50d in 76ms[0m
+2025.02.09 19:25:37 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:25:37 INFO  time: compiled main_1d6c8ac50d in 44ms[0m
+2025.02.09 19:25:52 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:25:52 INFO  time: compiled main_1d6c8ac50d in 44ms[0m
+2025.02.09 19:26:27 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala:11: error: [dialect scala3] ; expected but { found
+    case swordSwing(damage: Int) {
+                                 ^[0m
+2025.02.09 19:26:27 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:26:27 INFO  time: compiled main_1d6c8ac50d in 64ms[0m
+2025.02.09 19:26:54 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala:11: error: [dialect scala3] ; expected but { found
+    case swordSwing(damage: Int) {
+                                 ^[0m
+2025.02.09 19:26:54 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:26:54 INFO  time: compiled main_1d6c8ac50d in 62ms[0m
+2025.02.09 19:27:11 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala:5: error: [dialect scala3] ; expected but extends found
+    extends StandardAttributes(
+    ^[0m
+2025.02.09 19:27:11 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:27:11 INFO  time: compiled main_1d6c8ac50d in 38ms[0m
+2025.02.09 19:27:18 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala:11: error: [dialect scala3] ; expected but { found
+    case swordSwing(damage: Int) {
+                                 ^[0m
+2025.02.09 19:27:18 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:27:18 INFO  time: compiled main_1d6c8ac50d in 57ms[0m
+2025.02.09 19:27:21 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala:11: error: [dialect scala3] ; expected but { found
+        case swordSwing(damage: Int) {
+                                     ^[0m
+2025.02.09 19:27:21 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:27:21 INFO  time: compiled main_1d6c8ac50d in 63ms[0m
+2025.02.09 19:27:29 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala:11: error: [dialect scala3] ; expected but { found
+    case swordSwing(damage: Int) {
+                                 ^[0m
+2025.02.09 19:27:29 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:27:29 INFO  time: compiled main_1d6c8ac50d in 64ms[0m
+2025.02.09 19:28:11 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala:12: error: [dialect scala3] ; expected but { found
+    case swordSwing(damage: Int) {
+                                 ^[0m
+2025.02.09 19:28:11 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:28:11 INFO  time: compiled main_1d6c8ac50d in 63ms[0m
+2025.02.09 19:28:15 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala:12: error: [dialect scala3] ; expected but { found
+    case swordSwing(damage: Int) {
+                                 ^[0m
+2025.02.09 19:28:15 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:28:15 INFO  time: compiled main_1d6c8ac50d in 59ms[0m
+2025.02.09 19:28:31 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala:11: error: [dialect scala3] ; expected but { found
+    case swordSwing(damage: Int) {
+                                 ^[0m
+2025.02.09 19:28:31 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:28:31 INFO  time: compiled main_1d6c8ac50d in 49ms[0m
+2025.02.09 19:29:55 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala:11: error: [dialect scala3] ; expected but { found
+    case SwordSwing(damage: Int) {
+                                 ^[0m
+2025.02.09 19:29:55 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:29:55 INFO  time: compiled main_1d6c8ac50d in 62ms[0m
+2025.02.09 19:30:16 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:30:16 INFO  time: compiled main_1d6c8ac50d in 72ms[0m
+2025.02.09 19:32:27 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:32:27 INFO  time: compiled main_1d6c8ac50d in 72ms[0m
+2025.02.09 19:35:17 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:35:17 INFO  time: compiled main_1d6c8ac50d in 0.13s[0m
+2025.02.09 19:35:55 INFO  time: compiled main_1d6c8ac50d in 1ms[0m
+2025.02.09 19:36:12 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:36:12 INFO  time: compiled main_1d6c8ac50d in 0.1s[0m
+2025.02.09 19:36:46 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:36:46 INFO  time: compiled main_1d6c8ac50d in 0.12s[0m
+2025.02.09 19:36:49 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:36:49 INFO  time: compiled main_1d6c8ac50d in 97ms[0m
+Feb. 09, 2025 7:37:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SCHWERWIEGEND: A severe compiler error occurred, full details of the error can be found in the error report /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals-full/2025-02-09/r_compiler-error_(main_1d6c8ac50d)_19-37-03-635.md
+Feb. 09, 2025 7:37:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SCHWERWIEGEND: A severe compiler error occurred, full details of the error can be found in the error report /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals-full/2025-02-09/r_compiler-error_(main_1d6c8ac50d)_19-37-03-811.md
+Feb. 09, 2025 7:37:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SCHWERWIEGEND: A severe compiler error occurred, full details of the error can be found in the error report /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals-full/2025-02-09/r_compiler-error_(main_1d6c8ac50d)_19-37-04-016.md
+Feb. 09, 2025 7:37:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SCHWERWIEGEND: A severe compiler error occurred, full details of the error can be found in the error report /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals-full/2025-02-09/r_compiler-error_(main_1d6c8ac50d)_19-37-04-095.md
+Feb. 09, 2025 7:37:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SCHWERWIEGEND: A severe compiler error occurred, full details of the error can be found in the error report /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals-full/2025-02-09/r_compiler-error_(main_1d6c8ac50d)_19-37-04-293.md
+Feb. 09, 2025 7:37:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SCHWERWIEGEND: A severe compiler error occurred, full details of the error can be found in the error report /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals-full/2025-02-09/r_compiler-error_(main_1d6c8ac50d)_19-37-04-424.md
+Feb. 09, 2025 7:37:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SCHWERWIEGEND: A severe compiler error occurred, full details of the error can be found in the error report /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals-full/2025-02-09/r_compiler-error_(main_1d6c8ac50d)_19-37-04-570.md
+Feb. 09, 2025 7:37:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SCHWERWIEGEND: A severe compiler error occurred, full details of the error can be found in the error report /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals-full/2025-02-09/r_compiler-error_(main_1d6c8ac50d)_19-37-06-285.md
+Feb. 09, 2025 7:37:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SCHWERWIEGEND: A severe compiler error occurred, full details of the error can be found in the error report /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals-full/2025-02-09/r_compiler-error_(main_1d6c8ac50d)_19-37-06-440.md
+Feb. 09, 2025 7:37:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SCHWERWIEGEND: A severe compiler error occurred, full details of the error can be found in the error report /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals-full/2025-02-09/r_compiler-error_(main_1d6c8ac50d)_19-37-06-572.md
+Feb. 09, 2025 7:37:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SCHWERWIEGEND: A severe compiler error occurred, full details of the error can be found in the error report /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals-full/2025-02-09/r_compiler-error_(main_1d6c8ac50d)_19-37-06-641.md
+2025.02.09 19:37:18 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:37:18 INFO  time: compiled main_1d6c8ac50d in 81ms[0m
+Feb. 09, 2025 7:37:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SCHWERWIEGEND: A severe compiler error occurred, full details of the error can be found in the error report /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals-full/2025-02-09/r_compiler-error_(main_1d6c8ac50d)_19-37-25-413.md
+Feb. 09, 2025 7:37:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SCHWERWIEGEND: A severe compiler error occurred, full details of the error can be found in the error report /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals-full/2025-02-09/r_compiler-error_(main_1d6c8ac50d)_19-37-25-579.md
+Feb. 09, 2025 7:37:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SCHWERWIEGEND: A severe compiler error occurred, full details of the error can be found in the error report /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals-full/2025-02-09/r_compiler-error_(main_1d6c8ac50d)_19-37-25-706.md
+Feb. 09, 2025 7:37:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SCHWERWIEGEND: A severe compiler error occurred, full details of the error can be found in the error report /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals-full/2025-02-09/r_compiler-error_(main_1d6c8ac50d)_19-37-25-795.md
+Feb. 09, 2025 7:37:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SCHWERWIEGEND: A severe compiler error occurred, full details of the error can be found in the error report /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals-full/2025-02-09/r_compiler-error_(main_1d6c8ac50d)_19-37-28-002.md
+Feb. 09, 2025 7:37:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SCHWERWIEGEND: A severe compiler error occurred, full details of the error can be found in the error report /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals-full/2025-02-09/r_compiler-error_(main_1d6c8ac50d)_19-37-28-810.md
+Feb. 09, 2025 7:37:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SCHWERWIEGEND: A severe compiler error occurred, full details of the error can be found in the error report /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals-full/2025-02-09/r_compiler-error_(main_1d6c8ac50d)_19-37-28-959.md
+Feb. 09, 2025 7:37:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SCHWERWIEGEND: A severe compiler error occurred, full details of the error can be found in the error report /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals-full/2025-02-09/r_compiler-error_(main_1d6c8ac50d)_19-37-29-081.md
+2025.02.09 19:40:02 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:40:02 INFO  time: compiled main_1d6c8ac50d in 82ms[0m
+Feb. 09, 2025 7:42:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SCHWERWIEGEND: A severe compiler error occurred, full details of the error can be found in the error report /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals-full/2025-02-09/r_compiler-error_(main_1d6c8ac50d)_19-42-07-631.md
+Feb. 09, 2025 7:42:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SCHWERWIEGEND: A severe compiler error occurred, full details of the error can be found in the error report /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals-full/2025-02-09/r_compiler-error_(main_1d6c8ac50d)_19-42-07-790.md
+Feb. 09, 2025 7:42:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SCHWERWIEGEND: A severe compiler error occurred, full details of the error can be found in the error report /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals-full/2025-02-09/r_compiler-error_(main_1d6c8ac50d)_19-42-07-850.md
+Feb. 09, 2025 7:42:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SCHWERWIEGEND: A severe compiler error occurred, full details of the error can be found in the error report /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals-full/2025-02-09/r_compiler-error_(main_1d6c8ac50d)_19-42-08-075.md
+2025.02.09 19:42:42 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:42:42 INFO  time: compiled main_1d6c8ac50d in 0.14s[0m
+2025.02.09 19:42:49 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:42:49 INFO  time: compiled main_1d6c8ac50d in 0.12s[0m
+2025.02.09 19:43:27 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:43:27 INFO  time: compiled main_1d6c8ac50d in 0.11s[0m
+2025.02.09 19:43:35 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:43:35 INFO  time: compiled main_1d6c8ac50d in 0.11s[0m
+2025.02.09 19:43:45 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:43:45 INFO  time: compiled main_1d6c8ac50d in 89ms[0m
+2025.02.09 19:43:53 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:43:53 INFO  time: compiled main_1d6c8ac50d in 99ms[0m
+2025.02.09 19:44:45 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:44:45 INFO  time: compiled main_1d6c8ac50d in 69ms[0m
+2025.02.09 19:45:48 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/attributes/attributes.scala:10: error: [dialect scala3] identifier expected but outdent found
+
+^[0m
+2025.02.09 19:45:48 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:45:48 INFO  time: compiled main_1d6c8ac50d in 57ms[0m
+2025.02.09 19:46:01 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:46:01 INFO  time: compiled main_1d6c8ac50d in 0.1s[0m
+2025.02.09 19:46:01 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:46:01 INFO  time: compiled main_1d6c8ac50d in 38ms[0m
+2025.02.09 19:46:07 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:46:07 INFO  time: compiled main_1d6c8ac50d in 0.11s[0m
+2025.02.09 19:46:07 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:46:07 INFO  time: compiled main_1d6c8ac50d in 34ms[0m
+2025.02.09 19:46:10 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:46:10 INFO  time: compiled main_1d6c8ac50d in 0.1s[0m
+2025.02.09 19:46:10 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:46:10 INFO  time: compiled main_1d6c8ac50d in 34ms[0m
+2025.02.09 19:46:34 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:46:34 INFO  time: compiled main_1d6c8ac50d in 0.12s[0m
+2025.02.09 19:47:09 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:47:09 INFO  time: compiled main_1d6c8ac50d in 0.12s[0m
+2025.02.09 19:47:30 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:47:30 INFO  time: compiled main_1d6c8ac50d in 0.12s[0m
+2025.02.09 19:47:39 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:47:39 INFO  time: compiled main_1d6c8ac50d in 0.12s[0m
+2025.02.09 19:47:56 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:47:56 INFO  time: compiled main_1d6c8ac50d in 61ms[0m
+2025.02.09 19:48:21 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:48:21 INFO  time: compiled main_1d6c8ac50d in 0.12s[0m
+2025.02.09 19:48:33 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:48:33 INFO  time: compiled main_1d6c8ac50d in 93ms[0m
+2025.02.09 19:48:54 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:48:54 INFO  time: compiled main_1d6c8ac50d in 66ms[0m
+2025.02.09 19:48:59 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:48:59 INFO  time: compiled main_1d6c8ac50d in 0.11s[0m
+2025.02.09 19:50:48 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:50:48 INFO  time: compiled main_1d6c8ac50d in 57ms[0m
+2025.02.09 19:52:04 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:52:04 INFO  time: compiled main_1d6c8ac50d in 81ms[0m
+2025.02.09 19:52:08 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:52:08 INFO  time: compiled main_1d6c8ac50d in 56ms[0m
+2025.02.09 19:52:37 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:52:37 INFO  time: compiled main_1d6c8ac50d in 75ms[0m
+2025.02.09 19:52:37 WARN  Could not load snapshot text for /Users/alicankoc/fun/dungonGame/src/main/scala/attributes/attributes.scala[0m
+2025.02.09 19:52:45 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:52:45 INFO  time: compiled main_1d6c8ac50d in 66ms[0m
+2025.02.09 19:52:45 WARN  Could not load snapshot text for /Users/alicankoc/fun/dungonGame/src/main/scala/attributes/attributes.scala[0m
+2025.02.09 19:52:57 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:52:57 INFO  time: compiled main_1d6c8ac50d in 62ms[0m
+2025.02.09 19:52:57 WARN  Could not load snapshot text for /Users/alicankoc/fun/dungonGame/src/main/scala/attributes/attributes.scala[0m
+2025.02.09 19:54:05 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:54:05 INFO  time: compiled main_1d6c8ac50d in 0.13s[0m
+2025.02.09 19:54:06 WARN  Could not load snapshot text for /Users/alicankoc/fun/dungonGame/src/main/scala/attributes/attributes.scala[0m
+2025.02.09 19:54:23 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:54:23 INFO  time: compiled main_1d6c8ac50d in 0.11s[0m
+2025.02.09 19:54:23 WARN  Could not load snapshot text for /Users/alicankoc/fun/dungonGame/src/main/scala/attributes/attributes.scala[0m
+2025.02.09 19:55:11 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:55:11 INFO  time: compiled main_1d6c8ac50d in 0.12s[0m
+2025.02.09 19:55:11 WARN  Could not load snapshot text for /Users/alicankoc/fun/dungonGame/src/main/scala/attributes/attributes.scala[0m
+2025.02.09 19:55:21 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:55:21 INFO  time: compiled main_1d6c8ac50d in 0.12s[0m
+2025.02.09 19:55:21 WARN  Could not load snapshot text for /Users/alicankoc/fun/dungonGame/src/main/scala/attributes/attributes.scala[0m
+2025.02.09 19:55:26 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:55:26 INFO  time: compiled main_1d6c8ac50d in 0.12s[0m
+2025.02.09 19:55:26 WARN  Could not load snapshot text for /Users/alicankoc/fun/dungonGame/src/main/scala/attributes/attributes.scala[0m
+2025.02.09 19:55:26 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:55:26 INFO  time: compiled main_1d6c8ac50d in 0.11s[0m
+2025.02.09 19:55:27 WARN  Could not load snapshot text for /Users/alicankoc/fun/dungonGame/src/main/scala/attributes/attributes.scala[0m
+2025.02.09 19:55:29 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:55:29 INFO  time: compiled main_1d6c8ac50d in 0.11s[0m
+2025.02.09 19:55:29 WARN  Could not load snapshot text for /Users/alicankoc/fun/dungonGame/src/main/scala/attributes/attributes.scala[0m
+2025.02.09 19:55:38 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:55:38 INFO  time: compiled main_1d6c8ac50d in 0.12s[0m
+2025.02.09 19:55:38 WARN  Could not load snapshot text for /Users/alicankoc/fun/dungonGame/src/main/scala/attributes/attributes.scala[0m
+2025.02.09 19:55:41 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:55:41 INFO  time: compiled main_1d6c8ac50d in 96ms[0m
+2025.02.09 19:55:41 WARN  Could not load snapshot text for /Users/alicankoc/fun/dungonGame/src/main/scala/attributes/attributes.scala[0m
+2025.02.09 19:55:45 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:55:45 INFO  time: compiled main_1d6c8ac50d in 0.1s[0m
+2025.02.09 19:55:45 WARN  Could not load snapshot text for /Users/alicankoc/fun/dungonGame/src/main/scala/attributes/attributes.scala[0m
+2025.02.09 19:56:54 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:56:54 INFO  time: compiled main_1d6c8ac50d in 87ms[0m
+2025.02.09 19:56:54 WARN  Could not load snapshot text for /Users/alicankoc/fun/dungonGame/src/main/scala/attributes/attributes.scala[0m
+2025.02.09 19:57:03 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:57:03 INFO  time: compiled main_1d6c8ac50d in 72ms[0m
+2025.02.09 19:57:04 WARN  Could not load snapshot text for /Users/alicankoc/fun/dungonGame/src/main/scala/attributes/attributes.scala[0m
+2025.02.09 19:57:14 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 19:57:14 INFO  time: compiled main_1d6c8ac50d in 0.13s[0m
+2025.02.09 19:58:29 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala:7: error: [dialect scala3] . expected but \n\n found
+
+^[0m
+2025.02.09 19:58:29 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:58:29 INFO  time: compiled main_1d6c8ac50d in 59ms[0m
+2025.02.09 19:58:33 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:58:33 INFO  time: compiled main_1d6c8ac50d in 0.11s[0m
+2025.02.09 19:58:40 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:58:40 INFO  time: compiled main_1d6c8ac50d in 0.11s[0m
+2025.02.09 19:59:34 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:59:34 INFO  time: compiled main_1d6c8ac50d in 0.11s[0m
+2025.02.09 19:59:58 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 19:59:58 INFO  time: compiled main_1d6c8ac50d in 79ms[0m
+2025.02.09 20:00:16 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala:20: error: [dialect scala3] identifier expected but ] found
+  var itemBox: ListBuffer[] = ListBuffer.empty
+                          ^[0m
+2025.02.09 20:00:16 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 20:00:16 INFO  time: compiled main_1d6c8ac50d in 61ms[0m
+2025.02.09 20:00:40 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 20:00:40 INFO  time: compiled main_1d6c8ac50d in 0.11s[0m
