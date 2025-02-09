@@ -1,5 +1,4 @@
 import attributes._
+import roles._
 
-class User {
-
-}
+class User(whichRole: Warior ||, name: String) {}

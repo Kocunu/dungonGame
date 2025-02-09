@@ -1,0 +1,392 @@
+2025.02.09 17:23:12 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/attributes.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.09 17:23:12 INFO  Attempting to connect to the build server...[0m
+2025.02.09 17:23:12 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-launcher-options.json, --envs-file, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-envs.json, /Users/alicankoc/fun/dungonGame/src/main)[0m
+2025.02.09 17:23:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alicankoc/fun/dungonGame/src/main/.metals/bsp.trace.json or /Users/alicankoc/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.02.09 17:23:13 INFO  time: Connected to build server in 1.8s[0m
+2025.02.09 17:23:13 INFO  Connected to Build server: scala v1.5.4[0m
+2025.02.09 17:23:13 INFO  running doctor check[0m
+2025.02.09 17:23:13 INFO  java targets: main_1d6c8ac50d, main_1d6c8ac50d-test[0m
+2025.02.09 17:23:14 INFO  compiling main_1d6c8ac50d (7 scala sources)[0m
+2025.02.09 17:23:14 INFO  time: compiled main_1d6c8ac50d in 0.27s[0m
+2025.02.09 17:23:15 INFO  time: indexed workspace in 1.35s[0m
+2025.02.09 17:23:23 INFO  Shutting down server[0m
+2025.02.09 17:23:23 INFO  shutting down Metals[0m
+2025.02.09 17:23:23 INFO  Shut down connection with build server.[0m
+2025.02.09 17:23:23 INFO  Cancelling compilation on scala server[0m
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@271053e1[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 668]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2082)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1377)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025.02.09 17:23:23 INFO  unable to setup persistent H2 database with AUTO_SERVER=true, falling back to AUTO_SERVER=false.[0m
+2025.02.09 17:23:26 INFO  Started: Metals version 1.5.1 in folders '/Users/alicankoc/fun/dungonGame/src/main' for client Neovim 0.10.4.[0m
+2025.02.09 17:23:29 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/attributes.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.09 17:23:29 INFO  Attempting to connect to the build server...[0m
+2025.02.09 17:23:29 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-launcher-options.json, --envs-file, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-envs.json, /Users/alicankoc/fun/dungonGame/src/main)[0m
+2025.02.09 17:23:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alicankoc/fun/dungonGame/src/main/.metals/bsp.trace.json or /Users/alicankoc/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.02.09 17:23:31 INFO  time: Connected to build server in 1.86s[0m
+2025.02.09 17:23:31 INFO  Connected to Build server: scala v1.5.4[0m
+2025.02.09 17:23:31 INFO  running doctor check[0m
+2025.02.09 17:23:31 INFO  java targets: main_1d6c8ac50d, main_1d6c8ac50d-test[0m
+2025.02.09 17:23:32 INFO  time: indexed workspace in 1.27s[0m
+2025.02.09 17:23:38 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:23:38 INFO  time: compiled main_1d6c8ac50d in 0.12s[0m
+2025.02.09 17:23:46 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:23:46 INFO  time: compiled main_1d6c8ac50d in 0.1s[0m
+2025.02.09 17:24:17 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:24:17 INFO  time: compiled main_1d6c8ac50d in 66ms[0m
+2025.02.09 17:24:17 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:24:17 INFO  time: compiled main_1d6c8ac50d in 53ms[0m
+2025.02.09 17:24:25 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:24:25 INFO  time: compiled main_1d6c8ac50d in 69ms[0m
+2025.02.09 17:24:25 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:24:25 INFO  time: compiled main_1d6c8ac50d in 45ms[0m
+2025.02.09 17:24:36 INFO  time: compiled main_1d6c8ac50d in 3ms[0m
+2025.02.09 17:24:42 INFO  Shutting down server[0m
+2025.02.09 17:24:42 INFO  shutting down Metals[0m
+2025.02.09 17:24:42 INFO  Shut down connection with build server.[0m
+2025.02.09 17:24:42 INFO  Cancelling compilation on scala server[0m
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@271053e1[Shutting down, pool size = 4, active threads = 4, queued tasks = 0, completed tasks = 1725]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2082)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1377)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleepNanos0(Native Method)
+	at java.base/java.lang.Thread.sleepNanos(Thread.java:496)
+2025.02.09 17:26:35 INFO  Started: Metals version 1.5.1 in folders '/Users/alicankoc/fun/dungonGame/src/main' for client Neovim 0.10.4.[0m
+2025.02.09 17:26:49 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/User.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.09 17:26:49 INFO  Attempting to connect to the build server...[0m
+2025.02.09 17:26:49 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-launcher-options.json, --envs-file, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-envs.json, /Users/alicankoc/fun/dungonGame/src/main)[0m
+2025.02.09 17:26:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alicankoc/fun/dungonGame/src/main/.metals/bsp.trace.json or /Users/alicankoc/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.02.09 17:26:51 INFO  time: Connected to build server in 1.84s[0m
+2025.02.09 17:26:51 INFO  Connected to Build server: scala v1.5.4[0m
+2025.02.09 17:26:51 INFO  running doctor check[0m
+2025.02.09 17:26:51 INFO  java targets: main_1d6c8ac50d, main_1d6c8ac50d-test[0m
+2025.02.09 17:26:52 INFO  Shutting down server[0m
+2025.02.09 17:26:52 INFO  shutting down Metals[0m
+2025.02.09 17:26:51 INFO  Shut down connection with build server.[0m
+2025.02.09 17:29:24 INFO  Started: Metals version 1.5.1 in folders '/Users/alicankoc/fun/dungonGame/src/main' for client Neovim 0.10.4.[0m
+2025.02.09 17:29:25 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/User.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.09 17:29:25 INFO  Attempting to connect to the build server...[0m
+2025.02.09 17:29:25 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-launcher-options.json, --envs-file, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-envs.json, /Users/alicankoc/fun/dungonGame/src/main)[0m
+2025.02.09 17:29:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alicankoc/fun/dungonGame/src/main/.metals/bsp.trace.json or /Users/alicankoc/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.02.09 17:29:26 INFO  time: Connected to build server in 1.77s[0m
+2025.02.09 17:29:26 INFO  Connected to Build server: scala v1.5.4[0m
+2025.02.09 17:29:26 INFO  running doctor check[0m
+2025.02.09 17:29:26 INFO  java targets: main_1d6c8ac50d, main_1d6c8ac50d-test[0m
+2025.02.09 17:29:27 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:29:27 INFO  time: compiled main_1d6c8ac50d in 81ms[0m
+2025.02.09 17:29:28 INFO  time: indexed workspace in 1.29s[0m
+2025.02.09 17:29:37 INFO  Shutting down server[0m
+2025.02.09 17:29:37 INFO  shutting down Metals[0m
+2025.02.09 17:29:37 INFO  Shut down connection with build server.[0m
+2025.02.09 17:29:40 INFO  Started: Metals version 1.5.1 in folders '/Users/alicankoc/fun/dungonGame/src/main' for client Neovim 0.10.4.[0m
+2025.02.09 17:29:41 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/User.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.09 17:29:41 INFO  Attempting to connect to the build server...[0m
+2025.02.09 17:29:41 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-launcher-options.json, --envs-file, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-envs.json, /Users/alicankoc/fun/dungonGame/src/main)[0m
+2025.02.09 17:29:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alicankoc/fun/dungonGame/src/main/.metals/bsp.trace.json or /Users/alicankoc/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.02.09 17:29:43 INFO  time: Connected to build server in 1.81s[0m
+2025.02.09 17:29:43 INFO  Connected to Build server: scala v1.5.4[0m
+2025.02.09 17:29:43 INFO  running doctor check[0m
+2025.02.09 17:29:43 INFO  java targets: main_1d6c8ac50d, main_1d6c8ac50d-test[0m
+2025.02.09 17:29:44 INFO  time: indexed workspace in 1.42s[0m
+2025.02.09 17:30:53 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/attributes.scala[0m
+2025.02.09 17:31:08 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:31:08 INFO  time: compiled main_1d6c8ac50d in 92ms[0m
+2025.02.09 17:31:08 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:31:08 INFO  time: compiled main_1d6c8ac50d in 50ms[0m
+2025.02.09 17:31:11 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:31:11 INFO  time: compiled main_1d6c8ac50d in 94ms[0m
+2025.02.09 17:31:11 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:31:11 INFO  time: compiled main_1d6c8ac50d in 49ms[0m
+2025.02.09 17:31:11 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:31:11 INFO  time: compiled main_1d6c8ac50d in 76ms[0m
+2025.02.09 17:31:11 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:31:11 INFO  time: compiled main_1d6c8ac50d in 42ms[0m
+2025.02.09 17:31:46 INFO  Shutting down server[0m
+2025.02.09 17:31:46 INFO  shutting down Metals[0m
+2025.02.09 17:31:46 INFO  Shut down connection with build server.[0m
+2025.02.09 17:31:46 INFO  Shutting down server[0m
+2025.02.09 17:31:46 WARN  Ignoring shutdown request, server is ShuttingDown(scala.meta.internal.metals.WorkspaceLspService@3465dd31) state[0m
+2025.02.09 17:31:46 INFO  Exiting server[0m
+2025.02.09 17:33:35 INFO  Started: Metals version 1.5.1 in folders '/Users/alicankoc/fun/dungonGame/src/main' for client Neovim 0.10.4.[0m
+2025.02.09 17:33:36 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/attributes.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.09 17:33:36 INFO  Attempting to connect to the build server...[0m
+2025.02.09 17:33:36 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-launcher-options.json, --envs-file, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-envs.json, /Users/alicankoc/fun/dungonGame/src/main)[0m
+2025.02.09 17:33:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alicankoc/fun/dungonGame/src/main/.metals/bsp.trace.json or /Users/alicankoc/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.02.09 17:33:37 INFO  time: Connected to build server in 1.82s[0m
+2025.02.09 17:33:37 INFO  Connected to Build server: scala v1.5.4[0m
+2025.02.09 17:33:37 INFO  running doctor check[0m
+2025.02.09 17:33:37 INFO  java targets: main_1d6c8ac50d, main_1d6c8ac50d-test[0m
+2025.02.09 17:33:38 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:33:38 INFO  time: compiled main_1d6c8ac50d in 0.11s[0m
+2025.02.09 17:33:38 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:33:38 INFO  time: compiled main_1d6c8ac50d in 80ms[0m
+2025.02.09 17:33:38 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:33:38 INFO  time: compiled main_1d6c8ac50d in 71ms[0m
+2025.02.09 17:33:38 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:33:38 INFO  time: compiled main_1d6c8ac50d in 49ms[0m
+2025.02.09 17:33:39 INFO  time: indexed workspace in 1.31s[0m
+2025.02.09 17:33:39 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:33:39 INFO  time: compiled main_1d6c8ac50d in 82ms[0m
+2025.02.09 17:33:39 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:33:39 INFO  time: compiled main_1d6c8ac50d in 46ms[0m
+2025.02.09 17:33:39 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:33:39 INFO  time: compiled main_1d6c8ac50d in 73ms[0m
+2025.02.09 17:33:39 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:33:39 INFO  time: compiled main_1d6c8ac50d in 52ms[0m
+2025.02.09 17:33:42 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:33:42 INFO  time: compiled main_1d6c8ac50d in 88ms[0m
+2025.02.09 17:33:42 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:33:42 INFO  time: compiled main_1d6c8ac50d in 78ms[0m
+2025.02.09 17:33:49 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:33:49 INFO  Deduplicating compilation of main_1d6c8ac50d from bsp client 'scala-cli 1.5.4' (since 12.059s)[0m
+2025.02.09 17:33:49 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:33:49 INFO  time: compiled main_1d6c8ac50d in 96ms[0m
+2025.02.09 17:33:59 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:33:59 INFO  time: compiled main_1d6c8ac50d in 89ms[0m
+2025.02.09 17:34:34 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:34:34 INFO  time: compiled main_1d6c8ac50d in 98ms[0m
+2025.02.09 17:34:35 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:34:35 INFO  time: compiled main_1d6c8ac50d in 0.11s[0m
+2025.02.09 17:34:54 INFO  Shutting down server[0m
+2025.02.09 17:34:54 INFO  shutting down Metals[0m
+2025.02.09 17:34:54 INFO  Shut down connection with build server.[0m
+2025.02.09 17:35:33 INFO  Started: Metals version 1.5.1 in folders '/Users/alicankoc/fun/dungonGame/src/main' for client Neovim 0.10.4.[0m
+2025.02.09 17:35:33 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/attributes/attributes.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.09 17:35:33 INFO  Attempting to connect to the build server...[0m
+2025.02.09 17:35:33 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-launcher-options.json, --envs-file, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-envs.json, /Users/alicankoc/fun/dungonGame/src/main)[0m
+2025.02.09 17:35:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alicankoc/fun/dungonGame/src/main/.metals/bsp.trace.json or /Users/alicankoc/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.02.09 17:35:34 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/attributes/attributes.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.09 17:35:34 WARN  no build target for: /Users/alicankoc/fun/dungonGame/src/main/scala/attributes/attributes.scala[0m
+2025.02.09 17:35:34 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/attributes/attributes.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.09 17:35:35 INFO  time: Connected to build server in 1.81s[0m
+2025.02.09 17:35:35 INFO  Connected to Build server: scala v1.5.4[0m
+2025.02.09 17:35:35 INFO  running doctor check[0m
+2025.02.09 17:35:35 INFO  java targets: main_1d6c8ac50d, main_1d6c8ac50d-test[0m
+2025.02.09 17:35:35 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 17:35:35 INFO  time: compiled main_1d6c8ac50d in 0.11s[0m
+2025.02.09 17:35:36 INFO  time: indexed workspace in 1.33s[0m
+2025.02.09 17:35:38 INFO  Shutting down server[0m
+2025.02.09 17:35:38 INFO  shutting down Metals[0m
+2025.02.09 17:35:38 INFO  Shut down connection with build server.[0m
+2025.02.09 17:36:01 INFO  Started: Metals version 1.5.1 in folders '/Users/alicankoc/fun/dungonGame/src/main' for client Neovim 0.10.4.[0m
+2025.02.09 17:36:02 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/main.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.09 17:36:02 INFO  Attempting to connect to the build server...[0m
+2025.02.09 17:36:02 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-launcher-options.json, --envs-file, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-envs.json, /Users/alicankoc/fun/dungonGame/src/main)[0m
+2025.02.09 17:36:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alicankoc/fun/dungonGame/src/main/.metals/bsp.trace.json or /Users/alicankoc/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.02.09 17:36:04 INFO  time: Connected to build server in 1.82s[0m
+2025.02.09 17:36:04 INFO  Connected to Build server: scala v1.5.4[0m
+2025.02.09 17:36:04 INFO  running doctor check[0m
+2025.02.09 17:36:04 INFO  java targets: main_1d6c8ac50d, main_1d6c8ac50d-test[0m
+2025.02.09 17:36:05 INFO  time: indexed workspace in 1.25s[0m
+2025.02.09 17:36:16 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:36:16 INFO  time: compiled main_1d6c8ac50d in 94ms[0m
+Exception in thread "pool-8-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:244)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025.02.09 17:36:19 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:36:19 INFO  time: compiled main_1d6c8ac50d in 0.11s[0m
+2025.02.09 17:37:36 INFO  Shutting down server[0m
+2025.02.09 17:37:36 INFO  shutting down Metals[0m
+2025.02.09 17:37:36 INFO  Shut down connection with build server.[0m
+2025.02.09 17:37:36 INFO  Cancelling compilation on scala server[0m
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@271053e1[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 1484]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2082)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1377)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025.02.09 17:41:21 INFO  Started: Metals version 1.5.1 in folders '/Users/alicankoc/fun/dungonGame/src/main' for client Neovim 0.10.4.[0m
+2025.02.09 17:41:24 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/roles/Warior.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.09 17:41:24 INFO  Attempting to connect to the build server...[0m
+2025.02.09 17:41:24 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-launcher-options.json, --envs-file, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-envs.json, /Users/alicankoc/fun/dungonGame/src/main)[0m
+2025.02.09 17:41:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alicankoc/fun/dungonGame/src/main/.metals/bsp.trace.json or /Users/alicankoc/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+Feb. 09, 2025 5:41:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNUNG: Unmatched cancel notification for request id 3
+2025.02.09 17:41:24 WARN  no build target for: /Users/alicankoc/fun/dungonGame/src/main/scala/roles/Warior.scala[0m
+2025.02.09 17:41:24 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/roles/Warior.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.09 17:41:24 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/roles/Warior.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.09 17:41:25 INFO  time: Connected to build server in 1.84s[0m
+2025.02.09 17:41:25 INFO  Connected to Build server: scala v1.5.4[0m
+2025.02.09 17:41:26 INFO  running doctor check[0m
+2025.02.09 17:41:26 INFO  java targets: main_1d6c8ac50d, main_1d6c8ac50d-test[0m
+2025.02.09 17:41:26 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:41:26 INFO  time: compiled main_1d6c8ac50d in 84ms[0m
+2025.02.09 17:41:27 INFO  time: indexed workspace in 1.24s[0m
+2025.02.09 17:42:43 INFO  Shutting down server[0m
+2025.02.09 17:42:43 INFO  shutting down Metals[0m
+2025.02.09 17:42:43 INFO  Shut down connection with build server.[0m
+2025.02.09 17:42:49 INFO  Started: Metals version 1.5.1 in folders '/Users/alicankoc/fun/dungonGame/src/main' for client Neovim 0.10.4.[0m
+2025.02.09 17:42:50 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/main.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.09 17:42:50 INFO  Attempting to connect to the build server...[0m
+2025.02.09 17:42:50 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-launcher-options.json, --envs-file, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-envs.json, /Users/alicankoc/fun/dungonGame/src/main)[0m
+2025.02.09 17:42:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alicankoc/fun/dungonGame/src/main/.metals/bsp.trace.json or /Users/alicankoc/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.02.09 17:42:52 INFO  time: Connected to build server in 1.9s[0m
+2025.02.09 17:42:52 INFO  Connected to Build server: scala v1.5.4[0m
+2025.02.09 17:42:52 INFO  running doctor check[0m
+2025.02.09 17:42:52 INFO  java targets: main_1d6c8ac50d, main_1d6c8ac50d-test[0m
+2025.02.09 17:42:53 INFO  time: indexed workspace in 1.25s[0m
+2025.02.09 17:43:05 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:43:05 INFO  time: compiled main_1d6c8ac50d in 93ms[0m
+2025.02.09 17:43:35 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:43:35 INFO  time: compiled main_1d6c8ac50d in 87ms[0m
+2025.02.09 17:44:25 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:44:25 INFO  time: compiled main_1d6c8ac50d in 94ms[0m
+2025.02.09 17:44:46 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:44:46 INFO  time: compiled main_1d6c8ac50d in 84ms[0m
+2025.02.09 17:45:13 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:45:13 INFO  time: compiled main_1d6c8ac50d in 83ms[0m
+2025.02.09 17:45:20 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:45:20 INFO  time: compiled main_1d6c8ac50d in 85ms[0m
+2025.02.09 17:45:51 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:45:51 INFO  time: compiled main_1d6c8ac50d in 67ms[0m
+2025.02.09 17:46:17 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:46:17 INFO  time: compiled main_1d6c8ac50d in 67ms[0m
+2025.02.09 17:46:39 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:46:39 INFO  time: compiled main_1d6c8ac50d in 48ms[0m
+2025.02.09 17:46:58 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:46:58 INFO  time: compiled main_1d6c8ac50d in 79ms[0m
+2025.02.09 17:47:46 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/User.scala:4: error: [dialect scala3] ) expected but : found
+class User(whichRole: Warior || whichRole: Mage, name: String) {}
+                                         ^[0m
+2025.02.09 17:47:46 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:47:46 INFO  time: compiled main_1d6c8ac50d in 47ms[0m
+2025.02.09 17:47:49 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/User.scala:4: error: [dialect scala3] identifier expected but , found
+class User(whichRole: Warior ||, name: String) {}
+                               ^[0m
+2025.02.09 17:47:50 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 17:47:50 INFO  time: compiled main_1d6c8ac50d in 37ms[0m
+2025.02.09 17:55:15 INFO  Shutting down server[0m
+2025.02.09 17:55:15 INFO  shutting down Metals[0m
+2025.02.09 17:55:15 INFO  Shut down connection with build server.[0m
+2025.02.09 17:56:08 INFO  Started: Metals version 1.5.1 in folders '/Users/alicankoc/fun/dungonGame/src/main' for client Neovim 0.10.4.[0m
+2025.02.09 17:56:08 INFO  no build target found for /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2025.02.09 17:56:08 INFO  Attempting to connect to the build server...[0m
+2025.02.09 17:56:08 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-launcher-options.json, --envs-file, /Users/alicankoc/fun/dungonGame/src/main/.scala-build/ide-envs.json, /Users/alicankoc/fun/dungonGame/src/main)[0m
+2025.02.09 17:56:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alicankoc/fun/dungonGame/src/main/.metals/bsp.trace.json or /Users/alicankoc/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2025.02.09 17:56:08 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala[0m
+2025.02.09 17:56:10 INFO  time: Connected to build server in 1.93s[0m
+2025.02.09 17:56:10 INFO  Connected to Build server: scala v1.5.4[0m
+2025.02.09 17:56:10 INFO  running doctor check[0m
+2025.02.09 17:56:10 INFO  java targets: main_1d6c8ac50d, main_1d6c8ac50d-test[0m
+2025.02.09 17:56:10 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 17:56:10 INFO  time: compiled main_1d6c8ac50d in 70ms[0m
+2025.02.09 17:56:10 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 17:56:10 INFO  time: compiled main_1d6c8ac50d in 24ms[0m
+2025.02.09 17:56:11 INFO  time: indexed workspace in 1.29s[0m
+2025.02.09 17:56:12 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 17:56:12 INFO  time: compiled main_1d6c8ac50d in 29ms[0m
+2025.02.09 17:56:12 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 17:56:12 INFO  time: compiled main_1d6c8ac50d in 27ms[0m
+2025.02.09 17:56:12 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala[0m
+2025.02.09 17:56:31 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala[0m
+2025.02.09 17:56:32 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala[0m
+2025.02.09 17:56:33 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala[0m
+2025.02.09 17:56:33 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala[0m
+2025.02.09 17:56:34 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala[0m
+2025.02.09 17:56:34 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala[0m
+2025.02.09 17:56:36 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala[0m
+2025.02.09 17:56:36 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala[0m
+2025.02.09 17:56:36 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala[0m
+2025.02.09 17:56:36 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala[0m
+2025.02.09 17:56:37 WARN  Could not find semantic tokens for: file:///Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala[0m
+2025.02.09 17:56:51 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala:1: error: [dialect scala3] identifier expected but _ found
+package roles._
+              ^[0m
+Feb. 09, 2025 5:56:51 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SCHWERWIEGEND: expected identifier; obtained uscore (full report at: /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals/2025-02-09/r_scala-toplevel-mtags_17-56-51-276.md)
+2025.02.09 17:56:51 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 17:56:51 INFO  time: compiled main_1d6c8ac50d in 43ms[0m
+2025.02.09 17:56:52 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 17:56:52 INFO  time: compiled main_1d6c8ac50d in 37ms[0m
+2025.02.09 17:56:58 INFO  compiling main_1d6c8ac50d (2 scala sources)[0m
+2025.02.09 17:56:58 INFO  time: compiled main_1d6c8ac50d in 38ms[0m
+2025.02.09 17:58:21 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 17:58:21 INFO  time: compiled main_1d6c8ac50d in 40ms[0m
+2025.02.09 17:58:57 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 17:58:57 INFO  time: compiled main_1d6c8ac50d in 43ms[0m
+2025.02.09 17:59:53 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 17:59:53 INFO  time: compiled main_1d6c8ac50d in 73ms[0m
+2025.02.09 18:00:11 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 18:00:11 INFO  time: compiled main_1d6c8ac50d in 41ms[0m
+2025.02.09 18:00:15 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 18:00:15 INFO  time: compiled main_1d6c8ac50d in 45ms[0m
+2025.02.09 18:00:17 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 18:00:17 INFO  time: compiled main_1d6c8ac50d in 45ms[0m
+2025.02.09 18:00:18 ERROR scalafmt: /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala:6: error: [dialect scala3] identifier expected but end of file found
+
+^[0m
+Feb. 09, 2025 6:00:18 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+SCHWERWIEGEND: expected identifier; obtained eof (full report at: /Users/alicankoc/fun/dungonGame/src/main/.metals/.reports/metals/2025-02-09/r_scala-toplevel-mtags_18-00-18-213.md)
+2025.02.09 18:00:18 ERROR /Users/alicankoc/fun/dungonGame/src/main/scala/roles/roles.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:757)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:251)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1306)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:927)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1575)
+[0m
+2025.02.09 18:00:18 INFO  compiling main_1d6c8ac50d (3 scala sources)[0m
+2025.02.09 18:00:18 INFO  time: compiled main_1d6c8ac50d in 44ms[0m
+2025.02.09 18:00:22 INFO  Shutting down server[0m
+2025.02.09 18:00:22 INFO  shutting down Metals[0m
+2025.02.09 18:00:22 INFO  Shut down connection with build server.[0m
