@@ -1,8 +1,13 @@
 import roles._
+import scala.io.StdIn
 
 @main
 def main(): Unit = {
   startingMessage()
+  Thread.sleep(1000)
+  val userRoleName = StdIn.readLine().toString()
+  val userName = StdIn.readLine().toString()
+  val user = new User(userName, userRoleName)
 }
 
 def startingMessage(): Unit = {

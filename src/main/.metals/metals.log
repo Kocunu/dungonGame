@@ -940,3 +940,19 @@ SCHWERWIEGEND: A severe compiler error occurred, full details of the error can b
 2025.02.09 20:00:16 INFO  time: compiled main_1d6c8ac50d in 61ms[0m
 2025.02.09 20:00:40 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
 2025.02.09 20:00:40 INFO  time: compiled main_1d6c8ac50d in 0.11s[0m
+<<<<<<< Updated upstream
+=======
+2025.02.09 20:03:39 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 20:03:39 INFO  time: compiled main_1d6c8ac50d in 75ms[0m
+2025.02.09 20:03:42 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 20:03:42 INFO  time: compiled main_1d6c8ac50d in 0.12s[0m
+2025.02.09 20:04:07 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 20:04:07 INFO  time: compiled main_1d6c8ac50d in 0.11s[0m
+2025.02.09 20:04:19 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 20:04:19 INFO  time: compiled main_1d6c8ac50d in 0.12s[0m
+2025.02.09 20:04:36 INFO  compiling main_1d6c8ac50d (1 scala source)[0m
+2025.02.09 20:04:36 INFO  time: compiled main_1d6c8ac50d in 0.11s[0m
+2025.02.09 20:05:55 INFO  Shutting down server[0m
+2025.02.09 20:05:55 INFO  shutting down Metals[0m
+2025.02.09 20:05:55 INFO  Shut down connection with build server.[0m
+>>>>>>> Stashed changes
